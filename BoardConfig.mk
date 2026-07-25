@@ -86,9 +86,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_BASE := 0x00000000
 
 BOARD_KERNEL_CMDLINE := \
-    disable_dma32=on \
-    swinfo.fingerprint=$(BLISS_VERSION) \
-    mtdoops.fingerprint=$(BLISS_VERSION)
+    disable_dma32=on
 
 BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \
