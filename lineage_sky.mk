@@ -32,5 +32,15 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 23076RN4BI
 PRODUCT_MANUFACTURER := Xiaomi
 
+PRODUCT_SYSTEM_NAME := sky_global
+PRODUCT_SYSTEM_DEVICE := sky
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="sky_global-user 12 SKQ1.230118.001 OS2.0.201.0.VMWMIXM release-keys" \
+    BuildFingerprint=Redmi/sky/sky:12/SKQ1.230118.001/OS2.0.201.0.VMWMIXM:user/release-keys \
+    DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
+    DeviceProduct=$(PRODUCT_SYSTEM_NAME)
+
+
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

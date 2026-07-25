@@ -1,0 +1,13 @@
+# Bluetooth
+bluetooth.device.default_name=Redmi 12 5G
+
+# Device
+ro.product.odm.brand=Redmi
+ro.product.odm.name=sky_in
+ro.product.odm.device=sky
+ro.odm.build.fingerprint=POCO/sky_in/sky:14/UKQ1.231003.002/OS2.0.201.0.VMWINXM:user/release-keys
+ro.product.odm.model=23076RN4BI
+ro.product.odm.marketname=Redmi 12 5G
+
+# USB
+vendor.usb.product_string=Redmi 12 5G

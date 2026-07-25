@@ -86,9 +86,6 @@ BOARD_HAVE_QCOM_FM := true
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 $(call soong_config_set, qtilocation, feature_nhz, false)
 
-# Init
-$(call soong_config_set,libinit,vendor_init_lib,//$(DEVICE_PATH):init_xiaomi_sky)
-
 # Kernel
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_BASE := 0x00000000

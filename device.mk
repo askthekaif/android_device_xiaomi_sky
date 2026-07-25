@@ -329,6 +329,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
+# Properties
+PRODUCT_PACKAGES += \
+    sky_sku_properties
+
 # Rootdir
 PRODUCT_PACKAGES += \
     charger_fw_fstab.qti \
